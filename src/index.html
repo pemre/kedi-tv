@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Kedi Tv</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>
+    <img src="./logo/kedi-tv-white.png" alt="Kedi Tv Logo">
+    Kedi Tv
+  </h1>
+  <div class="card-list gridnav" data-element="a">
+    <a
+      autofocus
+      href="#"
+      onclick="run('netflix')"
+      onfocus="changeCover('netflix-poster.jpg')"
+      onmouseover="changeCover('netflix-poster.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/netflix.png)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('youtube')"
+      onfocus="changeCover('youtube-poster.jpg')"
+      onmouseover="changeCover('youtube-poster.jpg')"
+      class="card"
+      style="background-image: url(./icons/youtube-dark.png)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('spotify')"
+      onfocus="changeCover('spotify-poster.png')"
+      onmouseover="changeCover('spotify-poster.png')"
+      class="card card--dark"
+      style="background-image: url(./icons/spotify.png)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('muge-anli')"
+      onfocus="changeCover('muge-anli.png')"
+      onmouseover="changeCover('muge-anli.png')"
+      class="card"
+      style="background-image: url(./icons/muge-anli.png)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('cukur')"
+      onfocus="changeCover('cukur-poster.jpg')"
+      onmouseover="changeCover('cukur-poster.jpg')"
+      class="card"
+      style="background-image: url(./icons/cukur.jpg)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('konusanlar')"
+      onfocus="changeCover('konusanlar-poster.jpg')"
+      onmouseover="changeCover('konusanlar-poster.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/konusanlar.png)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('masumlar-apartmani')"
+      onfocus="changeCover('masumlar-apartmani.jpg')"
+      onmouseover="changeCover('masumlar-apartmani.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/masumlar-apartmani.jpg)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('kirmizi-oda')"
+      onfocus="changeCover('kirmizi-oda.jpg')"
+      onmouseover="changeCover('kirmizi-oda.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/kirmizi-oda.jpg)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('guldur-guldur')"
+      onfocus="changeCover('guldur-guldur-poster.jpg')"
+      onmouseover="changeCover('guldur-guldur-poster.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/guldur-guldur.png)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('ibrahim-selim-ile-bu-gece')"
+      onfocus="changeCover('ibrahim-selim-ile-bu-gece.jpg')"
+      onmouseover="changeCover('ibrahim-selim-ile-bu-gece.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/ibrahim-selim-ile-bu-gece.jpg)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('retroarch')"
+      onfocus="changeCover('retroarch-poster.jpg')"
+      onmouseover="changeCover('retroarch-poster.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/retroarch.jpg)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('steam')"
+      onfocus="changeCover('steam.jpg')"
+      onmouseover="changeCover('steam.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/steam.jpg)"
+    ></a>
+    <a
+      data-title="⏬ FİLM İNDİR"
+      href="#"
+      onclick="run('film-indir')"
+      onfocus="changeCover('film-indir-poster.jpg')"
+      onmouseover="changeCover('film-indir-poster.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/film-indir-poster.jpg)"
+    ></a>
+    <a
+      data-title="⏬ DİZİ İNDİR"
+      href="#"
+      onclick="run('dizi-indir')"
+      onfocus="changeCover('dizi-indir-poster.jpg')"
+      onmouseover="changeCover('dizi-indir-poster.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/dizi-indir-poster.jpg)"
+    ></a>
+    <a
+      data-title="⏬ İNDİRİCİ"
+      href="#"
+      onclick="run('indirici')"
+      onfocus="changeCover('indirici.jpg')"
+      onmouseover="changeCover('indirici.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/indirici.jpg)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('blutv')"
+      onfocus="changeCover('blutv-poster.jpg')"
+      onmouseover="changeCover('blutv-poster.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/blutv.png)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('puhutv')"
+      onfocus="changeCover('puhutv-poster.jpg')"
+      onmouseover="changeCover('puhutv-poster.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/puhutv.jpg)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('deep-humor')"
+      onfocus="changeCover('deep-humor.jpg')"
+      onmouseover="changeCover('deep-humor.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/deep-humor.jpg)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('anatolian-rock')"
+      onfocus="changeCover('anatolian-rock-revival-project.jpg')"
+      onmouseover="changeCover('anatolian-rock-revival-project.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/anatolian-rock-revival-project.jpg)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('primitive-technology')"
+      onfocus="changeCover('primitive-technology.jpg')"
+      onmouseover="changeCover('primitive-technology.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/primitive-technology.jpg)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('survival-skills')"
+      onfocus="changeCover('survival-skills.jpg')"
+      onmouseover="changeCover('survival-skills.jpg')"
+      class="card card--dark"
+      style="background-image: url(./icons/survival-skills.jpg)"
+    ></a>
+    <a
+      href="#"
+      onclick="run('ruhsar')"
+      onfocus="changeCover('ruhsar.png')"
+      onmouseover="changeCover('ruhsar.png')"
+      class="card card--dark"
+      style="background-image: url(./icons/ruhsar.png)"
+    ></a>
+  </div>
+
+  <script src="lib/gridnav.js">// https://github.com/codepo8/gridnav/</script>
+  <script src="config.js"></script>
+  <script>
+    const { ipcRenderer } = require('electron');
+
+    ipcRenderer.on('RUN_RESPONSE', (event, arg) => {
+      console.log('Receiving RUN_RESPONSE', arg)
+    });
+
+    const run = (id) => {
+      const app = config.apps.find((app) => app.id === id);
+      const command = app.command;
+      const parameters = app.parameters;
+      console.log('Sending RUN', { command, parameters });
+      ipcRenderer.send('RUN', { command, parameters });
+    }
+
+    const changeCover = (image) => {
+      const style = document.querySelector('html').style;
+      style.setProperty('--background', 'url(./icons/' + image + ')');
+    }
+  </script>
+</body>
+
+</html>

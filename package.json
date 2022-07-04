@@ -1,0 +1,22 @@
+{
+  "name": "kedi-tv",
+  "productName": "Kedi Tv",
+  "version": "0.1.0",
+  "description": "A customizable home theater app",
+  "author": "Emre Piskin <piskin.emre@gmail.com>",
+  "license": "GPL-3.0",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^11.1.0",
+    "electron-installer-snap": "^5.1.0",
+    "electron-packager": "^15.2.0",
+    "electron-reloader": "^1.1.0"
+  },
+  "scripts": {
+    "build:linux": "electron-packager . 'Kedi Tv' --overwrite --asar --platform=linux --arch=x64 --icon=src/logo/kedi-tv-white.png --prune=true --out=bin",
+    "build:snap": "electron-installer-snap --src=bin/kedi",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
