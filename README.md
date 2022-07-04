@@ -3,7 +3,7 @@
 
 # 😻 Kedi Tv
 
-<img src="./src/logo/kedi-tv-black.svg" width="100%" height="150" alt="Logo of Kedi Tv" />
+<img src="./src/logo/kedi-tv-black.png" height="150" alt="Logo of Kedi Tv" />
 
 A customizable home theater app (using Electron). It's an unfinished (and will probably not be finished) project. I've met with NVIDIA's SHIELD TV PRO, so I don't know if I'll ever work on this project 😅🤷‍♂️.
 
